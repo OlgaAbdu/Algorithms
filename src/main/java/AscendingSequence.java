@@ -9,7 +9,7 @@ public class AscendingSequence {
 
             for (int i = 0; i < result.length ; i++) {
                 if(start <= end){
-                    result[i ] = start;
+                    result[i] = start;
                     start += step;
                 }
             }
@@ -17,4 +17,6 @@ public class AscendingSequence {
         }
        return new int[]{};
     }
+
+
 }
